@@ -11,7 +11,7 @@ ul {
     font-family: 'Varela Round', sans-serif;
   }
   
-  li {
+   li {
     float: right;
   }
   
@@ -58,4 +58,24 @@ ul {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .logo{ text-align: center;
+  }
+.photos{
+    text-align: center;
+}
+  .photos img{
+    width: 300px;
+    height: 400px;
+   margin-left: 15px;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 0 0 5px 4px rgba(109, 114, 116, 0.5);
+  }
+
+    /* מגדיר עיצוב תמונות בדף ראשי  */
+  .photos img:hover{
+    width: 350px;
+    box-shadow: 0 0 5px 4px rgba(109, 114, 116, 0.5);
   }
